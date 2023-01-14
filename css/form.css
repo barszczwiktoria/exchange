@@ -1,0 +1,49 @@
+.form__legend {
+    font-size: 50px;
+    padding: 10px;
+    text-align: center;
+    color: rgb(70, 163, 199)
+}
+
+.form__labelText {
+    display: inline-block;
+    font-size: 20px;
+    color: blue;
+    padding-right: 20px;
+}
+
+.form__field {
+    border: 1px solid rgb(83, 156, 162);
+    font-family: 'Anek Devanagari', sans-serif;
+    padding: 10px;
+    max-width: 300px;
+    border-radius: 5px;
+    margin: 20px 40px;
+}
+
+.form__fieldset {
+    border: 1px solid blue;
+}
+
+.form__result {
+    border: 1px solid blue;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.form__button {
+    width: 100%;
+    padding: 5px;
+    background-color: rgba(0, 0, 255, 0.744);
+    color: white;
+    border: 1px solid darkblue;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.form__button:hover {
+    background-color: rgba(0, 0, 255, 0.493);
+}
