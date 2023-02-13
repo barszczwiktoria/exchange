@@ -1,7 +1,7 @@
 # currency-converter
 
 ## Demo
- https://barszczwiktoria.github.io/exchange/
+ 
  
 ## Description
 
