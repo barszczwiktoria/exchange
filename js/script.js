@@ -20,17 +20,18 @@ formElement.addEventListener("submit", (event) => {
     let amount = amountElement.value;
     let exchange = exchangeElement.value;
     let result = resultElement.value;
+    
 
     switch (exchange) {
-        case "EUR":
+        case "EUR-PLN":
             result = amount * rateEUR
             break;
 
-        case "USD":
+        case "USD-PLN":
             result = amount * rateUSD
             break;
 
-        case "MKD":
+        case "MKD-PLN":
             result = amount * rateMKD
             break;
 
@@ -47,7 +48,7 @@ formElement.addEventListener("submit", (event) => {
             break;
     }
 
-    resultElement.innerText = (` ${result.toFixed(2)} ${exchange}`);
+    resultElement.innerText = (` ${result.toFixed(2)} ${exchange.split('-')[1]}`);
 })
 
 
