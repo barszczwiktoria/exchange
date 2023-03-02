@@ -31,7 +31,7 @@
 
     const updateResultText = (result, exchange) => {
         const resultElement = document.querySelector(".js-result");
-      
+    
         resultElement.innerText = (`${result.toFixed(2)} ${exchange.split('-')[1]}`);
     }      
 
@@ -49,14 +49,10 @@
         updateResultText(result, exchange);
     };
  
-
     const init = () => {
         const formElement = document.querySelector(".js-form");
 
         formElement.addEventListener("submit", onFormSubmit);
-
     };
-
     init();
-
     }
