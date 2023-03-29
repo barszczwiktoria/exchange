@@ -3,8 +3,6 @@
         console.log("hello everyone in my second project - currency calclulator");
     }
 
-    welcome()
-
     const calculateResult = (amount, exchange) => {
         const rateEUR = 4.39;
         const rateUSD = 4.69;
@@ -55,6 +53,7 @@
 
         formElement.addEventListener("submit", onFormSubmit);
 
+        welcome()
     };
 
     init();
