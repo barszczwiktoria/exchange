@@ -29,7 +29,7 @@
 
     const updateResultText = (result, exchange) => {
         const resultElement = document.querySelector(".js-result");
-      
+    
         resultElement.innerText = (`${result.toFixed(2)} ${exchange.split('-')[1]}`);
     }      
 
@@ -47,15 +47,15 @@
         updateResultText(result, exchange);
     };
  
-
     const init = () => {
         const formElement = document.querySelector(".js-form");
 
         formElement.addEventListener("submit", onFormSubmit);
+<<<<<<< HEAD
 
         welcome()
+=======
+>>>>>>> 0ec7897706d441e5a999d3254c3a3e102eae4d17
     };
-
     init();
-
     }

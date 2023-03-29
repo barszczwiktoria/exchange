@@ -13,8 +13,11 @@ html {
     font-family: "Lato";
     font-size: 12px;
     background-image: url("../images/background.jpeg");
-    background-size: 95%;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 0ec7897706d441e5a999d3254c3a3e102eae4d17
